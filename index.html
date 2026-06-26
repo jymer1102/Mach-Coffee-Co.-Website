@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mach Coffee Co.</title>
 <link rel="icon" id="favicon" type="image/png" href="favicon/frame_00.png">
+<link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+
+<!-- Social preview (Open Graph / Twitter Card) -->
+<!-- NOTE: swap "https://jymer1102.github.io/Mach-Coffee-Co.-Website" below for your real domain once you buy one -->
+<meta property="og:title" content="Mach Coffee Co.">
+<meta property="og:description" content="Coffee, engineered for altitude. Every drink on the manifest is built like a flight checklist.">
+<meta property="og:image" content="https://jymer1102.github.io/Mach-Coffee-Co.-Website/favicon/social-card.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mach Coffee Co.">
+<meta name="twitter:description" content="Coffee, engineered for altitude.">
+<meta name="twitter:image" content="https://jymer1102.github.io/Mach-Coffee-Co.-Website/favicon/social-card.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
@@ -896,13 +908,13 @@
     <div class="location-block">
       <h3>Find Us</h3>
       <p>123 Runway Lane<br>Springfield, MO 65801</p>
-      <p style="margin-top: 14px;"><a href="tel:4178723145">(417) 872-3145</a></p>
+      <p style="margin-top: 14px;"><a href="tel:4175550199">(417) 555-0199</a></p>
       <p style="margin-top: 14px;"><a href="#">Get Directions</a></p>
     </div>
     <div class="location-block">
       <h3>Hours</h3>
-      <div class="hours-row"><span class="hours-day">Mon &ndash; Fri</span><span>6:00 AM &ndash; 5:00 PM</span></div>
-      <div class="hours-row"><span class="hours-day">Saturday</span><span>7:00 AM &ndash; 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Mon &ndash; Fri</span><span>6:00 AM &ndash; 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day">Saturday</span><span>7:00 AM &ndash; 1:00 PM</span></div>
       <div class="hours-row"><span class="hours-day">Sunday</span><span>Closed</span></div>
     </div>
   </div>
@@ -1043,8 +1055,8 @@
 
   // --- Animated spinning favicon (compass needle) ---
   (function animateFavicon() {
-    const FRAME_COUNT = 24;
-    const FRAME_INTERVAL_MS = 80; // ~1.9s per full rotation
+    const FRAME_COUNT = 48;
+    const FRAME_INTERVAL_MS = 45; // ~2.1s per full rotation, smoother steps
     const favicon = document.getElementById('favicon');
     if (!favicon) return;
 
