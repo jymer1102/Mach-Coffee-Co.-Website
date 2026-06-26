@@ -8,6 +8,7 @@ Concept website for Mach Coffee Co. — an aviation-themed coffee shop.
 
 - `index.html` — homepage
 - `menu.html` — full drink menu
+- `about.html` - about us
 - `images/` — image assets (logo, photos, etc.)
 
 ## License
